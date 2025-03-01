@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -105,6 +106,10 @@ const technologies = [
     icon: git,
   },
   {
+    name: "github",
+    icon: github,
+  },
+  {
     name: "figma",
     icon: figma,
   },
@@ -116,55 +121,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Frontend Developer",
+    company_name: "Ioweb3",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "In addition to writing clean, reusable code that accelerates development cycles, I focus on performance optimization to enhance application speed and reliability across devices and browsers. My responsibilities also include troubleshooting, debugging, and ensuring high-quality code that supports seamless user interactions and engagement.",
+      "I work closely with cross-functional teams, including backend developers and designers, to deliver scalable solutions, implement role-based access controls, and design intuitive admin panels. ",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "React and React Native Developer",
+    company_name: "Appystack",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - Oct 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining Web and Mobile applications using React.js, React Native and other related technologies.",
+      "Collaborating with cross-functional teams including designers, Backend Developers, and other developers to create high-quality products.",
+      "My responsibilities extended to performance optimization, troubleshooting, and debugging to enhance application speed and reliability.",
+      "Through my efforts, I contributed to delivering user-centric solutions that met the company’s standards for innovation and excellence.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Codekul",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented responsive user interfaces for 3 major projects using HTML, CSS, JavaScript, and Bootstrap, enhancing user engagement by 20%.",
+      "Utilized HTML, CSS, JavaScript, and Bootstrap to create responsive user interfaces, reducing page load times by 15% and improving user experience scores.",
+      "I collaborated with senior developers to design user-friendly interfaces, optimize website performance, and ensure compatibility across multiple platforms. ",
     ],
   },
 ];
